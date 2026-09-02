@@ -1,7 +1,54 @@
-bpdy {
-    font-family: Arial;
+body {
+    font-family:Arial;
+    font-size:13px;
+}
+#titulo {
+    color:blue;
+    text-align: center;
+    line-height:40px;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:40px;
+
+}
+ #sub {
+    text-align:center;
+ }
+ h2 {
+    color:blue;
+    font-weight:700;
+    letter-spacing:1px;
+    font-size:30px;
+    text-transform:upercase;
+    text-decoration:none;
+    line-height:20px;
+ }
+ h3 {
+    font-size:20px;
+ }
+ strong{
+    color:red;
+ }
+
+ hr {
+    margin-top:40px;
+    margin-bottom:40px;
     color:black;
-    line-height: 1.4;
-    margin:20px;
-    max-width: 80px;
+ }
+ mark{
+    background-color:yellow;
+    color:black;
+ }
+ footer {
+    font-size:13px;
+    margin-top:15px;
+    text-align:center;
+
+}
+aside{
+    text-align:center;
+    margin:30px;
+}
+aside h2 {
+    text-align:center;
 }
